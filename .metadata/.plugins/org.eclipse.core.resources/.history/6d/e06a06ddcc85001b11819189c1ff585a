@@ -1,0 +1,16 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		
+		String email = "vanessa.ChiareLLi@itau-unibanco.com.br"
+			
+		System.out.println("Original: " + email);
+		
+		
+		
+		
+	}
+	
+}

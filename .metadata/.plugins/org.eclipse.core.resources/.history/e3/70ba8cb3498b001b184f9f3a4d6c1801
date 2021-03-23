@@ -1,0 +1,9 @@
+package br.com.bancofoz.beans;
+
+public class Poupanca extends Conta {
+
+	private float rendimento;
+	
+	
+	
+}

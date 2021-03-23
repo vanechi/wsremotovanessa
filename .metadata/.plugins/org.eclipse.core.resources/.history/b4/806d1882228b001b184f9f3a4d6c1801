@@ -1,0 +1,42 @@
+package br.com.gama.modelo;
+
+import loja.Fabricante;
+
+public class Produto {
+
+	private int id;
+	private String descricao;
+	private Fabricante fabricante;
+	private float valorVenda;
+	private float valorCompra;
+	private int qtde;
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Produto [id=" + id + ", descricao=" + descricao + ", fabricante=" + fabricante + ", valorVenda="
+				+ valorVenda + ", valorCompra=" + valorCompra + ", qtde=" + qtde + "]";
+	}
+
+
+	public Produto() {
+		super();
+	}
+
+
+	public Produto(int id, String descricao, Fabricante fabricante, float valorVenda, float valorCompra, int qtde) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+		this.fabricante = fabricante;
+		this.valorVenda = valorVenda;
+		this.valorCompra = valorCompra;
+		this.qtde = qtde;
+	}
+	
+	
+	
+	
+}

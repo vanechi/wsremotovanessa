@@ -1,0 +1,29 @@
+package br.com.caicai.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.caicai.modelo.Elevador;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		//Instanciando um objeto
+				Elevador elevador = new Elevador ();
+				elevador.inicializar(JOptionPane.showInputDialog("Nome"), (byte)10, (byte)20, (byte)0);
+				System.out.println("Informações do elevador: " + elevador);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

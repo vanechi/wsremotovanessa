@@ -1,0 +1,9 @@
+package br.com.banco.modelo;
+
+public class Corrente extends Conta {
+
+	private float limite;
+	private float taxa;
+	
+	
+}

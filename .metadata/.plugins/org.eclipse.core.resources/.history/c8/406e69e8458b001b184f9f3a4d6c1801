@@ -1,0 +1,13 @@
+package br.com.banco.implementacao;
+
+public class TesteConta {
+
+	private int id;
+	private String nome;
+	private String cpf;
+	private String fone;
+	
+	
+	
+	
+}

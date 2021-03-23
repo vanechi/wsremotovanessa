@@ -1,0 +1,8 @@
+package br.com.bancofoz.modelo;
+
+public class Poupanca extends Conta {
+
+	private float rendimento;
+	
+	
+}

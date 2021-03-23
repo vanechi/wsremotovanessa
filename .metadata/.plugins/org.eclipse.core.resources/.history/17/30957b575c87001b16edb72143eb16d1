@@ -1,0 +1,26 @@
+package br.com.caicai.modelo;
+
+public class Elevador {
+
+	private String nome;
+	private byte maximoPessoas;
+	private byte andarMaximo;
+	private byte andarMinimo;
+	private byte andarAtual;
+	private byte qtdePessoas;
+	
+	
+	public String toString() {
+		return 
+				"Nome..............: " + nome + "\n" +
+				"Máximo de Pessoas.: " + maximoPessoas + "\n" + 
+				"Andar Máximo......: " + andarMaximo + "\n" + 
+				"Andar Mínimo......: " + andarMinimo + "\n" + 
+				"Andar Atual.......: " + andarAtual + "\n" + 
+				"Qtde de Pessoas...: " + qtdePessoas; 
+	}
+	
+	
+	
+	
+}

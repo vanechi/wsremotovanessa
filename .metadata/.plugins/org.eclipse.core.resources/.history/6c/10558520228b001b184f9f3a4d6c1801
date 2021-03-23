@@ -1,0 +1,27 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Fabricante;
+import br.com.gama.modelo.Produto;
+import br.com.gama.util.Magica;
+
+public class TesteVenda {
+
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto (
+			Magica.i("ID.: "), 
+			Magica.s("Descrição: "),
+			new Fabricante(
+					Magica.s("CNPJ: ");
+					Magica.s("Razão Social: ");
+					Magica.s("Telefone: ")
+					),
+			Magica.f("Valor de Venda: "),
+			Magica.f("Valor de Compra: "),
+			Magica.i("Quantidade: ")
+			)			
+		
+	}
+	
+}

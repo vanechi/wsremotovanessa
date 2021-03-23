@@ -1,0 +1,13 @@
+package br.com.gama.modelo;
+
+public class Professor {
+
+	private String nome;
+	private String formacao;
+	private String area;
+	private Endereco endereco;
+	
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+package br.com.gama.implementacao;
+
+public class TesteTurma {
+
+	public static void main(String[] args) {
+		
+		//Fazer com e sem o construtor cheio
+		//fazer os métodos estáticos
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

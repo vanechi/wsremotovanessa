@@ -1,0 +1,25 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao1 {
+
+	public static void main(String[] args) {
+		
+		int numero1=0;
+		int numero2=0;
+		
+		numero1 = Integer.parseInt(JOptionPane.showInputDialog("Número 1"));
+		numero2 = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o numero digitado anteriormente:"));
+		
+		if (numero2 > numero1) {
+			System.out.println("Você digitou um número maior " );
+		} else {
+			System.out.println("Você digitou um numero menor " );
+		}
+		
+		System.out.println("Parabéns, você acertou! " );
+	}
+	
+	
+}

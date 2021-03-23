@@ -1,0 +1,36 @@
+package loja;
+
+public class Fabricante {
+
+	private String cnpj;
+	private String razaoSocial;
+	private String telefone;
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Fabricante [cnpj=" + cnpj + ", razaoSocial=" + razaoSocial + ", telefone=" + telefone + "]";
+	}
+
+
+
+	public Fabricante() {
+		super();
+	}
+
+
+
+	public Fabricante(String cnpj, String razaoSocial, String telefone) {
+		super();
+		this.cnpj = cnpj;
+		this.razaoSocial = razaoSocial;
+		this.telefone = telefone;
+	}
+	
+	
+	
+	
+}

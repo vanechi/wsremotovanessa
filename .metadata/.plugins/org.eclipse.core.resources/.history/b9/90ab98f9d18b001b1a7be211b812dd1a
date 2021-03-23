@@ -1,0 +1,41 @@
+package br.com.bancofoz.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.bancofoz.beans.Poupanca;
+import br.com.loja.modelo.Cliente;
+import br.com.loja.modelo.PessoaFisica;
+import br.com.loja.modelo.PessoaJuridica;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
+		if (JOptionPane.showInputDialog
+				("Digite <P> para Poupança ou qq coisa para Conta Corrente").toUpperCase().contentEquals("P")) {
+			
+			cliente = new Poupanca(
+								
+					);			
+		} else {
+			cliente = new ContaCorrente(
+					
+					);
+			
+		}
+		
+		System.out.println(cliente.toString());
+				
+	}
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

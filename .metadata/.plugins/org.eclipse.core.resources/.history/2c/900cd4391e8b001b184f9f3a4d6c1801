@@ -1,0 +1,12 @@
+package br.com.gama.modelo;
+
+public class Fabricante {
+
+	private String cnpj;
+	private String razaoSocial;
+	private Sring telefone;
+	
+	
+	
+	
+}

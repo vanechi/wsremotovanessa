@@ -1,0 +1,41 @@
+package br.com.rubinhocar.modelo;
+
+public class Veiculo {
+
+	private String montadora;
+	private float valor;
+	private short velocidadeAtual;
+	private boolean status;
+	private short velocidadeMaxima;
+	private String modelo;
+	
+	//sintaxe dos métodos
+	//<modificador> <tipo do retorno> <nome do metodo>(<tipo param> <nome param>,....){}
+	
+	
+	public void preencherMontadora(String param) {
+		montadora = param.toUpperCase();	
+	}
+	
+	public String retornarMontadora() {
+		return montadora;
+	}
+		
+	public void preencherModelo(String param1) {
+		modelo = param1.toUpperCase();
+	}
+	
+	public String retornarModelo() {
+		return modelo;
+	}
+	
+	public void preencherValor(float param) {
+		valor = param;
+	}
+	
+	public String retornarModelo() {
+		return modelo;
+	}
+	
+	
+}

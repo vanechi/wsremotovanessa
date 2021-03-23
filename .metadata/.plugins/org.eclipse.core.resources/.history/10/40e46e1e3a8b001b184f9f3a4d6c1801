@@ -1,0 +1,15 @@
+package br.com.loja.modelo;
+
+public class PessoaFisica extends Cliente {
+
+	private String cpf;
+	private String rg;
+	@Override
+	public String toString() {
+		return "PessoaFisica [cpf=" + cpf + ", rg=" + rg + ", " + super.toString() + "]";
+	}
+	
+	
+	
+	
+}

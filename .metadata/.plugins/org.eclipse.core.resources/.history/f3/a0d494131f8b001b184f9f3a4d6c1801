@@ -1,0 +1,11 @@
+package br.com.gama.modelo;
+
+public class Venda {
+
+	private int notaFiscal;
+	private float total;
+	private Cliente cliente;
+	private Produto produto;
+	
+	
+}

@@ -1,0 +1,46 @@
+package br.com.caicai.modelo;
+
+public class Elevador {
+
+	private String nome;
+	private byte maximoPessoas;
+	private byte andarMaximo;
+	private byte andarMinimo;
+	private byte andarAtual;
+	private byte qtdePessoas;
+	
+	//<modificador> <tipo do retorno> <nome do metodo>(<tipo do param> <nome param>){
+	
+	public void inicializar(String pNome, byte pMaxPessoas, byte pAndarMax, byte pAndarMin) {
+		nome = pNome;
+		maximoPessoas = pMaxPessoas;
+		andarMaximo = pAndarMax;
+		andarMinimo = pAndarMin;
+
+	}
+	
+	
+	public String toString() {
+		return 
+				"Nome..............: " + nome + "\n" +
+				"Máximo de Pessoas.: " + maximoPessoas + "\n" + 
+				"Andar Máximo......: " + andarMaximo + "\n" + 
+				"Andar Mínimo......: " + andarMinimo + "\n" + 
+				"Andar Atual.......: " + andarAtual + "\n" + 
+				"Qtde de Pessoas...: " + qtdePessoas; 
+	}
+	
+	public void entrar (byte pQtdePessoas) {
+		if ((qtdePessoas + pQtdePessoas) <= maximoPessoas) {
+			qtdePessoas += pQtdePessoas;
+		}		
+	}
+	
+	public void sair (byte pQtdePessoas) {
+		if ((qtdePessoas - pQtdePessoas) >= 1) {
+			qtdePessoas -= pQtdePessoas;
+		}		
+	}
+	
+	
+}

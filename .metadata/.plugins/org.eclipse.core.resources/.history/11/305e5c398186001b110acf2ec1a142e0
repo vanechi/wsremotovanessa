@@ -1,0 +1,27 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao4 {
+
+	public static void main(String[] args) {
+		
+		String oper = JOptionPane.showInputDialog("Informe a Operação Aritmética (Adição A, Subtração S, Multiplicação M, Divisão D: ").toUpperCase();
+		byte num1 = Byte.parseByte(JOptionPane.showInputDialog("Informe o número 1: "));
+		byte num2 = Byte.parseByte(JOptionPane.showInputDialog("Informe o número 2: "));
+		
+		if (oper == "A") {
+			System.out.println("Adição: " + (num1 + num2));
+		} else if (oper == "S") {
+			System.out.println("Subtração: " + (num1 - num2));
+		} else if (oper == "M") {
+			System.out.println("Multiplicação: " + (num1 * num2));
+		} else {
+			System.out.println("Divisão: " + (num1 / num2));
+		}
+		
+		
+		
+	}
+	
+}
